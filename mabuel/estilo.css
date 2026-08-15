@@ -11,10 +11,7 @@ body{
     min-height:100vh;
 }
 
-
-/* ========================= */
 /* INDEX - TRANSPORTE CÚCUTA */
-/* ========================= */
 
 #inicio{
     background:#f2f5f3;
@@ -402,6 +399,90 @@ header nav a:hover {
     height: auto;
     display: block;
     border: 1px solid #ddd;
+}
+
+#coomicro header {
+    background-color: #ff0000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 5%;
+}
+
+#coomicro .banner-info p:last-child {
+    background: linear-gradient(90deg, #c40000, #ff3333);
+    color: white;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-size: 1.05rem;
+    box-shadow: 0 5px 15px rgba(196, 0, 0, 0.3);
+}
+#coomicro .banner-info h2 {
+    font-size: 2rem;
+    color: #ff0000;
+    font-weight: 800;
+    margin-bottom: 12px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#coomicro .seccion-rutas {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 15px;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+#coomicro .menu-rutas {
+    width: 32%;
+    min-width: 260px;
+}
+
+#coomicro .menu-rutas ul {
+    list-style: none;
+    border: 1px solid #d9a0a0;
+    border-bottom: none;
+    background-color: #fff5f5;
+    padding: 0;
+    margin: 0;
+}
+
+#coomicro .menu-rutas li {
+    background-color: #ffe5e5;
+    border-bottom: 1px solid #d9a0a0;
+    transition: background-color 0.2s ease;
+}
+
+#coomicro .menu-rutas li a {
+    display: block;
+    padding: 12px 15px;
+    color: #a00000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+#coomicro .menu-rutas li:hover,
+#coomicro .menu-rutas li.activa {
+    background-color: #c40000;
+}
+
+#coomicro .menu-rutas li:hover a,
+#coomicro .menu-rutas li.activa a {
+    color: #ffffff;
+}
+
+#coomicro .contenido-ruta {
+    width: 75%;
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 15px;
+    border-top: 5px solid #c40000;
+    box-shadow: 0 5px 20px rgba(196, 0, 0, 0.15);
 }
 
 /* Adaptación para pantallas de celulares */
